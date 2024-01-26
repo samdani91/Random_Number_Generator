@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <label class="header">Random Number</label>
+            <br />
+            <label class="header2">Generator</label>
+        </div>
+
+        <label id="text" class="minRange">Lower Limit:</label>
+        <input id="min" class="range" />
+        <br>
+        <label id="text" class="maxRange">Upper Limit:</label>
+        <input id="max" class="range" />
+
+        <br />
+
+        <label id="text" class="count">Generate</label>
+        <input id="cnt" class="cntNum" />
+        <label id="text2" class="text2">Numbers</label>
+        <p id="warning"></p>
+
+        <br>
+
+        <label id="duplicateLabel" class="duplicate">Allow duplication in results?
+            <input  type="radio" name="ques" value="yes" checked> Yes
+            <input  type="radio" name="ques" value="no" > No
+        </label>
+
+        <br>
+
+        <label id="sortLabel" class="duplicate">Sort the results?
+            <input  type="radio" name="qs" value="as"> Ascend
+            <input  type="radio" name="qs" value="ds" > Descend
+            <input  type="radio" name="qs" value="no" checked > No
+        </label>
+
+        <br>
+
+        <button id="generateButton" class="btn" onclick="randomNumber()">Generate</button>
+        <button id="clearButton" class="btn" onclick="reset()">Clear</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

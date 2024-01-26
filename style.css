@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    color: #ededed;
+    background: #081b29;
+}
+.container{
+    text-align: center;
+}
+.header{
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 30px;
+    font-weight: 600;
+    
+    
+}
+.header2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.head{
+    /* margin: 30px; */
+    margin: 15px auto;
+    /* width: 100px; */
+    /* display: inline-block; */
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    padding: 10px 60px;
+    border: 1px solid #0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 5px cyan,
+    0 0 5px cyan, 0 0 5px cyan,
+    0 0 5px cyan,0 0 5px cyan;
+}
+
+#text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#text2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -20px;
+}
+
+.range{
+    width: 210px;
+    padding: 8px;
+    font-size: 30px;
+    margin: 10px;
+    margin-right: 25px;
+    border: 2px solid #0ef;
+    border-radius: 15px;
+    background-color: #081b29;
+    color: #ededed;
+    outline: none;
+}
+
+.duplicate {
+    display: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#sortLabel{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Style the radio buttons */
+.duplicate input[type="radio"] {
+    margin-right: 5px;
+    appearance: none;
+    width: 15px;
+    height: 15px; 
+    border: 2px solid #0ef; 
+    border-radius: 50%; 
+    outline: none; 
+    cursor: pointer; 
+}
+
+.duplicate label {
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.duplicate input[type="radio"]:checked {
+    background-color: #0ef; 
+}
+.cntNum{
+    width: 100px;
+    padding: 8px;
+    font-size: 30px;
+    margin: 10px;
+    margin-right: 25px;
+    border: 2px solid #0ef;
+    border-radius: 15px;
+    background-color: #081b29;
+    color: #ededed;
+    outline: none;
+}
+
+.btn{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 10px #0ef,
+    0 0 10px #0ef;
+}
+
+#clearButton{
+    margin-left: 15px;
+    background: red;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 0 10px red,
+    0 0 10px red;
+}
+
+#clearButton:hover{
+    box-shadow: 0 0 10px red,
+    0 0 10px red, 0 0 10px red,
+    0 0 10px red,0 0 10px red;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px cyan,
+    0 0 10px cyan, 0 0 10px cyan,
+    0 0 10px cyan,0 0 10px cyan;
+}
+#result{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#warning{
+    margin-top: 28px;
+    margin-left: 10px;
+    position: absolute;
+    display: inline-block;
+}
