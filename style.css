@@ -159,7 +159,7 @@ body
 }
 
 #warning{
-    margin-top: 28px;
+    margin-top: 18px;
     margin-left: 10px;
     position: absolute;
     display: inline-block;
@@ -168,11 +168,11 @@ body
 @media screen and (max-width:600px){
     .header{
         font-size: 20px;
-        margin-left: -30px;
+        margin-left: -28px;
     }
     .header2{
         font-size: 25px;
-        margin-left: -30px;
+        margin-left: -28px;
     }
     .head{
         width: 50%;
@@ -202,5 +202,9 @@ body
     }
     #result{
         font-size: 20px;
+    }
+    #warning{
+        margin-top: 5px;
+        position: relative;
     }
 }
