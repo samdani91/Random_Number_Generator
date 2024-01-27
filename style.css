@@ -14,7 +14,7 @@ body
 }
 .header{
     display: inline-block;
-    padding: 12px 28px;
+    padding: 5px 20px;
     font-size: 30px;
     font-weight: 600;
     
@@ -32,8 +32,8 @@ body
     /* display: inline-block; */
     align-items: center;
     justify-content: center;
-    width: 35%;
-    padding: 10px 60px;
+    width: 30%;
+    padding: 5px 60px;
     border: 1px solid #0ef;
     border-radius: 40px;
     box-shadow: 0 0 5px cyan,
@@ -42,12 +42,12 @@ body
 }
 
 #text{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 #text2{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     margin-left: -20px;
 }
@@ -55,8 +55,8 @@ body
 .range{
     width: 210px;
     padding: 8px;
-    font-size: 30px;
-    margin: 10px;
+    font-size: 20px;
+    margin: 5px;
     margin-right: 25px;
     border: 2px solid #0ef;
     border-radius: 15px;
@@ -71,15 +71,19 @@ body
     margin-top: 10px;
 }
 #sortLabel{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: -8px;
+    font-size: small;
+}
+#duplicateLabel{
+    font-size: small;
 }
 /* Style the radio buttons */
 .duplicate input[type="radio"] {
     margin-right: 5px;
     appearance: none;
-    width: 15px;
-    height: 15px; 
+    width: 10px;
+    height: 10px; 
     border: 2px solid #0ef; 
     border-radius: 50%; 
     outline: none; 
@@ -88,7 +92,6 @@ body
 
 .duplicate label {
     display: inline-block;
-    font-size: 14px;
     margin-right: 15px;
     cursor: pointer;
 }
@@ -99,8 +102,8 @@ body
 .cntNum{
     width: 100px;
     padding: 8px;
-    font-size: 30px;
-    margin: 10px;
+    font-size: 20px;
+    margin: 5px;
     margin-right: 25px;
     border: 2px solid #0ef;
     border-radius: 15px;
